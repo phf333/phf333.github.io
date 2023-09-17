@@ -1,0 +1,33 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    color: #000;
+    min-height: 85vh;
+    margin-left: 2%;
+    font-family: roboto-regular;
+}
+
+
+.card {
+    font-size: 20px;
+    
+}
+
+
+.contact {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+a:link{
+    color: black;
+    text-decoration: underline;
+}
