@@ -29,6 +29,14 @@ html {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    .corpo-pagina {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+    }
+}
+
+
 header{
     width: 1,440px;
     height: 60px;
