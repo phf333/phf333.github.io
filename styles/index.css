@@ -27,14 +27,11 @@ html {
     background-color: #0e1111;
     min-height: 100vh; 
     margin: 0;
+    overflow: hidden;
+    
 }
 
-@media (max-width: 768px) {
-    .corpo-pagina {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 5fr 1fr;
-    }
-}
+
 
 
 header{
